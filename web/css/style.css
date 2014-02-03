@@ -1,0 +1,33 @@
+/* 
+    Document   : style
+    Created on : 03-feb-2014, 9:09:54
+    Author     : al037342
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    /*gradient background*/
+    background: #3496ba;
+    background: -moz-radial-gradient(center, ellipse cover, #3496ba 0%, #141a49 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3496ba), color-stop(100%,#141a49));
+    background: -webkit-radial-gradient(center, ellipse cover, #3496ba 0%,#141a49 100%);
+    background: -o-radial-gradient(center, ellipse cover, #3496ba 0%,#141a49 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #3496ba 0%,#141a49 100%);
+    background: radial-gradient(ellipse at center, #3496ba 0%,#141a49 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3496ba', endColorstr='#141a49',GradientType=1 );}
+
+.jumbotron{
+    /*gradient background*/
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%, rgba(0,45,96,0.98) 1%, rgba(0,45,96,0) 66%, rgba(0,45,96,0) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,45,96,1)), color-stop(1%,rgba(0,45,96,0.98)), color-stop(66%,rgba(0,45,96,0)), color-stop(100%,rgba(0,45,96,0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
+    background: radial-gradient(ellipse at center, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002d60', endColorstr='#00002d60',GradientType=1 );
+
+    
+    color:white;
+}
+

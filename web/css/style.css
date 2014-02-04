@@ -1,10 +1,4 @@
-/* 
-    Document   : style
-    Created on : 03-feb-2014, 9:09:54
-    Author     : al037342
-    Description:
-        Purpose of the stylesheet follows.
-*/
+
 
 body { 
     /*gradient background*/
@@ -15,7 +9,9 @@ body {
     background: -o-radial-gradient(center, ellipse cover, #3496ba 0%,#141a49 100%);
     background: -ms-radial-gradient(center, ellipse cover, #3496ba 0%,#141a49 100%);
     background: radial-gradient(ellipse at center, #3496ba 0%,#141a49 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3496ba', endColorstr='#141a49',GradientType=1 );}
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3496ba', endColorstr='#141a49',GradientType=1 );
+    color:white;
+}
 
 .jumbotron{
     /*gradient background*/
@@ -25,9 +21,32 @@ body {
     background: -o-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
     background: -ms-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
     background: radial-gradient(ellipse at center, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002d60', endColorstr='#00002d60',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002d60', endColorstr='#00002d60',GradientType=1 ); 
 
-    
-    color:white;
 }
 
+#logo{
+    width: 60%;
+    height:60%;
+}
+
+#history{
+    background-image: url("../img/scroll.png");
+    background-size: cover;
+    color: #330000;
+    font-family:Times New Roman;
+    font-weight: bold;
+    font-style: italic;
+    padding: 100px 0;
+}
+#sinopsis>h1{
+    font-family:Times New Roman !important;
+    text-shadow: 1px 1px  black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 65px;
+}
+#sinopsis>p{
+    padding-top: 10px;
+    font-size: 28px;
+}

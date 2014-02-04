@@ -110,8 +110,7 @@ body {
   display: table;
   height: 100%;
   width: 100%;
-  position: relative;
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  position: relative; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -127,7 +126,6 @@ body {
 /* Services */
 
 .services {
-  background: #7fbbda;
   padding: 50px 0;
   color: #ffffff;
 }
@@ -147,6 +145,7 @@ i.service-icon {
   vertical-align: middle; 
   text-align: center;
 }
+
 
 /* Callout */
 

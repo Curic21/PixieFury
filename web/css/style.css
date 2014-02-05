@@ -37,16 +37,42 @@ body {
     font-family:Times New Roman;
     font-weight: bold;
     font-style: italic;
-    padding: 100px 0;
+    padding: 10em 0;
 }
 #sinopsis>h1{
-    font-family:Times New Roman !important;
+    font-family:Times New Roman;
     text-shadow: 1px 1px  black;
     font-weight: bold;
     font-style: italic;
-    font-size: 65px;
+    font-size: 4em;
 }
 #sinopsis>p{
     padding-top: 10px;
-    font-size: 28px;
+    font-size: 1.5em;
+}
+
+.portfolio-item > a > img{
+    margin-left: 10em;
+    width: 20em;
+    height: 15em;
+}
+
+#trailer{
+    margin: 5em 0;
+}
+#video1, #video2{
+    width: 20em;
+    height:15em; 
+}
+#video1{
+    margin-left: 2em;
+}
+#video2{
+    margin-left: 15em;
+}
+#success{
+    margin-left: 6em;
+}
+#success2{
+    margin-left: 21em;
 }

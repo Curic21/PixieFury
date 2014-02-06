@@ -22,13 +22,18 @@
     <body>
 
         <!-- LOGO -->
-        <div id="top" class="header" align='center'>
+        <div id="top" class="header visible-lg" align='center'>
             <div class="vert-text"><h1><img src="img/logo.png" id="logo" /></h1></div>
         </div>
+        
+        <div id="top" class="header visible-xs" align='center'>
+            <div class="vert-text"><h1><img src="img/logo.png" id="logo" /></h1></div>
+        </div>
+        
         <!-- /LOGO -->
 
         <!--Menu -->
-        <div class="masthead">
+        <div class="masthead visible-lg">
             <ul class="nav nav-justified navbar-fixed-top">
                 <li><a href="#top">Home</a></li>
                 <li><a href="#history">History</a></li>
@@ -37,17 +42,30 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
+        
+        <div class="masthead visible-xs">
+            <ul class="nav nav-justified">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#historyp">History</a></li>
+                <li><a href="#portfoliop">Screenshots</a></li>
+                <li><a href="#videosp">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
 
         <!-- Menu -->
 
         <!--TRAILER -->
-        <div align="center" id="trailer"><iframe width="700" height="400" src="//www.youtube.com/embed/WUfDvKVAc5o" frameborder="0" allowfullscreen></iframe>
+        <div align="center" class="visible-lg"><iframe width="700" height="400" src="//www.youtube.com/embed/WUfDvKVAc5o" frameborder="0" allowfullscreen></iframe>
+        </div><br />
+        
+        <div align="center" id="trailer" class="visible-xs"><iframe width="700" height="400" src="//www.youtube.com/embed/WUfDvKVAc5o" frameborder="0" allowfullscreen></iframe>
         </div><br />
 
         <!-- /TRAILER-->
 
         <!-- history -->
-        <div id="history">
+        <div id="history" class="visible-lg">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center" id="sinopsis">
@@ -60,6 +78,24 @@
                 </div>
             </div>
         </div><br /><br />
+        
+        <div id="historyp" class="visible-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center" id="sinopsis">
+                        <h1>Once upon a time...</h1>
+                        <p class="lead">In the Land of Departure, Terra and Aqua take an exam to achieve the Mark of Mastery, which will allow them to become Keyblade Masters. <br/><br/>
+                            However, only Aqua passes while Terra fails due to the abundant darkness in his heart. Shortly after the test, Master Xehanort disappears and a horde of creatures called the Unversed begin to appear throughout the worlds. <br/><br/>
+                            Ventus is coaxed by Xehanort's apprentice Vanitas into following Terra against Eraqu's wishes, while Eraqus orders Aqua to watch over Terra and bring Ventus back to the Land of Departure.<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><br /><br />
+        
+        
+        
+        
         <!-- /history -->
 
 
@@ -72,7 +108,7 @@
                         <hr>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row visible-lg">
                     <div class="col-md-3">
                         <div class="portfolio-item">
                             <a href="#">
@@ -95,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row visible-lg">
                     <div class="col-md-3">
                         <div class="portfolio-item">
                             <a href="#">
@@ -120,7 +156,6 @@
                 </div>
             </div>
         </div><br /><br />
-
         <!-- /Portfolio -->
 
 
@@ -134,7 +169,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 visible-lg">
                         <div id="video1">
                             <video controls>
                                 <source src="./video/video1.webm" type="video/webm">
@@ -145,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 visible-lg">
                         <div id="video2">
                             <video controls>
                                 <source src="./video/video2.webm" type="video/webm">
@@ -168,8 +203,8 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <h2>Contact</h2>
                         <hr>
-                        <p>Feel free to email me to provide some feedback on the game, such as suggestions for new levels, or to just say hello!</p>
-                        <p>jordieslavabarrera@gmail.com</p>
+                        <p>Feel free to email me to provide some feedback for the game, such as suggestions for new levels, or to just say hello!</p>
+                        <p id="email">jordieslavabarrera@gmail.com</p>
                     </div>
                     <div class="col-md-6 col-md-offset-3 text-center">
                         <ul class="list-inline">
@@ -187,6 +222,7 @@
             </div>
         </footer>
         <!-- /Footer -->
+
 
         <!-- JavaScript -->
         <script src="js/jquery-1.10.2.js"></script>

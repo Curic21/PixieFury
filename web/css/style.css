@@ -40,15 +40,6 @@ iframe{
     font-style: italic;
     padding: 10em 0;
 }
-
-#historyp{
-    background-image: url("../img/scroll2.png");
-    color: #330000;
-    font-family:Times New Roman;
-    font-weight: bold;
-    font-style: italic;
-    padding: 10em 0;
-}
 #sinopsis>h1{
     font-family:Times New Roman;
     text-shadow: 1px 1px  black;
@@ -61,7 +52,27 @@ iframe{
     font-size: 1.5em;
 }
 
+#historyp{
+    background-image: url("../img/scroll2.png");
+    color: #330000;
+    font-family:Times New Roman;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10em 0;
+}
 
+
+.visible-xs>#sinopsis>h1{
+    font-family:Times New Roman;
+    text-shadow: 1px 1px  black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4em;
+}
+.visible-xs>#sinopsis>p{
+    padding-top: 10px;
+    font-size: 1.2em;
+}
 
 
 

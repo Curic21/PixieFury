@@ -13,21 +13,12 @@ body {
     color:white;
 }
 
-.jumbotron{
-    /*gradient background*/
-    background: -moz-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%, rgba(0,45,96,0.98) 1%, rgba(0,45,96,0) 66%, rgba(0,45,96,0) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,45,96,1)), color-stop(1%,rgba(0,45,96,0.98)), color-stop(66%,rgba(0,45,96,0)), color-stop(100%,rgba(0,45,96,0)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
-    background: radial-gradient(ellipse at center, rgba(0,45,96,1) 0%,rgba(0,45,96,0.98) 1%,rgba(0,45,96,0) 66%,rgba(0,45,96,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002d60', endColorstr='#00002d60',GradientType=1 ); 
-
-}
-
 #logo{
-    width: 60%;
-    height:60%;
+    width: 80%;
+    height:80%;
+}
+.trailer{
+    margin-bot:10em;
 }
 
 #history{
@@ -60,19 +51,21 @@ body {
 #trailer{
     margin: 5em 0;
 }
-#video1, #video2{
-    width: 20em;
-    height:15em; 
+video{
+    width: 25em;
+    height:20em; 
 }
+
 #video1{
-    margin-left: 2em;
-}
-#video2{
     margin-left: 15em;
 }
-#success{
+#video2{
+    margin-left: 20em;
+}
+#button1{
     margin-left: 6em;
 }
-#success2{
-    margin-left: 21em;
+#button2{
+    margin-left: 8em;
 }
+

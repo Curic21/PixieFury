@@ -11,6 +11,10 @@ body {
     background: radial-gradient(ellipse at center, #3496ba 0%,#141a49 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3496ba', endColorstr='#141a49',GradientType=1 );
     color:white;
+    font-size: 100%;
+}
+.nav{
+    font-size: 150%;
 }
 
 #logo{
@@ -18,11 +22,17 @@ body {
     height:80%;
 }
 
-
 iframe{
-  width:700px;
-  height:400px;
+    width:700px;
+    height:400px;
 }
+
+.visible-md>iframe{
+    margin-top: 6em;
+    width: 500px;
+    height: 300px;
+}
+
 .visible-xs >iframe{
     width: 480px;
     height: 350px;
@@ -30,30 +40,49 @@ iframe{
 
 
 
-
 #history{
     background-image: url("../img/scroll.png");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: #330000;
     font-family:Times New Roman;
     font-weight: bold;
     font-style: italic;
-    padding: 10em 0;
+    padding: 6% 0;
 }
-#sinopsis>h1{
+#sinopsis1>h1, #sinopsis2>h1, #sinopsis3>h1{
     font-family:Times New Roman;
     text-shadow: 1px 1px  black;
     font-weight: bold;
     font-style: italic;
-    font-size: 4em;
+    font-size: 500%;
 }
-#sinopsis>p{
-    padding-top: 10px;
-    font-size: 1.5em;
+#sinopsis1>p{
+    padding-top: 6px;
+    font-size: 2.2em;
 }
+
+#historym{
+    background-image: url("../img/scroll.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #330000;
+    font-family:Times New Roman;
+    font-weight: bold;
+    font-style: italic;
+    padding:2em 0;
+}
+
+#sinopsis2>p{
+    padding-top: 3%;
+    font-size: 200%;
+}
+
+
 
 #historyp{
     background-image: url("../img/scroll2.png");
+    background-repeat: no-repeat;
     color: #330000;
     font-family:Times New Roman;
     font-weight: bold;
@@ -61,55 +90,60 @@ iframe{
     padding: 10em 0;
 }
 
-
-.visible-xs>#sinopsis>h1{
-    font-family:Times New Roman;
-    text-shadow: 1px 1px  black;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 4em;
-}
-.visible-xs>#sinopsis>p{
-    padding-top: 10px;
-    font-size: 1.2em;
+#sinopsis3>p{
+    margin-left: 4%;
+    width: 90%;
+    padding-top: 6px;
+    font-size: 230%;
 }
 
 
-
-
-
-
-.portfolio-item > a > img{
-    margin-left: 10em;
-    width: 20em;
-    height: 15em;
+#portfoliog> .portfolio-item > a > img{
+    margin-left: 15em;
+    width: 200%;
+    height: 25em;
+}
+#portfoliom> .portfolio-item > a > img{
+    margin-left: 15em;
+    width: 100%;
+    height: 100%;
+}
+#portfoliop> .portfolio-item > a > img{
+    width: 200%;
+    height: 25em;
 }
 
 #trailer{
     margin: 5em 0;
 }
 video{
-    width: 25em;
-    height:20em; 
+    width: 50em;
+    height:30em; 
 }
 
 #video1{
-    margin-left: 15em;
+    margin-left: 5em;
 }
 #video2{
-    margin-left: 20em;
+    margin-left: 30em;
 }
 #button1{
-    margin-left: 6em;
+    margin-left: 16em;
 }
 #button2{
-    margin-left: 8em;
+    margin-left: 20em;
+}
+#contact{
+    font-size: 2em;   
 }
 
 #email{
     color: #6affad;
-    font-size: 25px;
+    font-size: 2em;
     font-weight: bold;
     border: 2px solid;
     border-radius: 1em;
+}
+#copyright{
+    margin-top: 5em;
 }

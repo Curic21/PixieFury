@@ -98,14 +98,19 @@ iframe{
 }
 
 
-#portfoliog> .portfolio-item > a > img{
-  display: block;
-  margin-left: 500%;
+.portfolio-item, .img-portfolio {
+    margin: 1em 1em 1em 5em;
+    padding: 0.5em;
+    width: 320px;
+    height: 250px;
 }
-#portfoliom> .portfolio-item > a > img{
+.portfolio-item1, .img-portfolio1 {
+    margin: auto;
+/*    padding: 1em;*/
+    width: 370px;
+    height: 280px;
 }
-#portfoliop> .portfolio-item > a > img{
-}
+
 
 #trailer{
     margin: 5em 0;
@@ -133,11 +138,21 @@ video{
 
 #email{
     color: #6affad;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     border: 2px solid;
     border-radius: 1em;
 }
 #copyright{
     margin-top: 5em;
+}
+.modal-body > h3{
+    color: #15c;
+    font-size: 2em;
+    font-weight: bold;
+    font-style:italic;
+}
+.modal-body > p{
+    color: #3496ba;
+    font-size: 2em;
 }

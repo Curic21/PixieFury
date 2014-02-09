@@ -34,10 +34,9 @@ iframe{
 }
 
 .visible-xs >iframe{
-    width: 480px;
-    height: 350px;
+    width: 300px;
+    height: 200px;
 }
-
 
 
 #history{
@@ -50,16 +49,25 @@ iframe{
     font-style: italic;
     padding: 6% 0;
 }
-#sinopsis1>h1, #sinopsis2>h1, #sinopsis3>h1{
+#sinopsis1>h1, #sinopsis2>h1{
     font-family:Times New Roman;
     text-shadow: 1px 1px  black;
     font-weight: bold;
     font-style: italic;
-    font-size: 500%;
+    font-size: 200%;
 }
+
+#sinopsis3>h1{
+    padding-left: 20px;
+   font-family:Times New Roman;
+    font-weight: bold;
+    font-style: italic; 
+    
+}
+
 #sinopsis1>p{
     padding-top: 6px;
-    font-size: 2.4em;
+    font-size: 2.2em;
 }
 
 #historym{
@@ -81,6 +89,7 @@ iframe{
 
 
 #historyp{
+    width: 100%;
     background-image: url("../img/scroll2.png");
     background-repeat: no-repeat;
     color: #330000;
@@ -93,9 +102,11 @@ iframe{
 #sinopsis3>p{
     margin-left: 4%;
     width: 90%;
-    padding-top: 6px;
-    font-size: 230%;
+    padding: 6px 0px 0px 18px;
+    font-size: 150%;
 }
+
+
 
 
 .portfolio-item, .img-portfolio {
@@ -106,9 +117,8 @@ iframe{
 }
 .portfolio-item1, .img-portfolio1 {
     margin: auto;
-/*    padding: 1em;*/
-    width: 370px;
-    height: 280px;
+    width: 140px;
+    height: 100px;
 }
 
 
@@ -139,6 +149,13 @@ video{
 #email{
     color: #6affad;
     font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 1em;
+}
+#email2{
+    color: #6affad;
+    font-size: 1em;
     font-weight: bold;
     border: 2px solid;
     border-radius: 1em;

@@ -54,20 +54,20 @@ iframe{
     text-shadow: 1px 1px  black;
     font-weight: bold;
     font-style: italic;
-    font-size: 200%;
+    font-size: 5em;
 }
 
 #sinopsis3>h1{
     padding-left: 20px;
-   font-family:Times New Roman;
+    font-family:Times New Roman;
     font-weight: bold;
     font-style: italic; 
-    
+    font-size: 3em;
 }
 
 #sinopsis1>p{
     padding-top: 6px;
-    font-size: 2.2em;
+    font-size: 2.4em;
 }
 
 #historym{
@@ -103,7 +103,7 @@ iframe{
     margin-left: 4%;
     width: 90%;
     padding: 6px 0px 0px 18px;
-    font-size: 150%;
+    font-size: 140%;
 }
 
 
@@ -111,7 +111,7 @@ iframe{
 
 .portfolio-item, .img-portfolio {
     margin: 1em 1em 1em 5em;
-    padding: 0.5em;
+    padding: 1em;
     width: 320px;
     height: 250px;
 }
@@ -155,10 +155,13 @@ video{
 }
 #email2{
     color: #6affad;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
     border: 2px solid;
     border-radius: 1em;
+}
+#contact2{
+    font-size: 0.8em;  
 }
 #copyright{
     margin-top: 5em;

@@ -55,8 +55,15 @@
         <!-- Menu -->
 
         <!--TRAILER -->
-        <div align="center" class="trailer visible-lg"><iframe width="700" height="400" src="//www.youtube.com/embed/WUfDvKVAc5o" frameborder="0" allowfullscreen></iframe>
+        
+        <div align="center" class="trailer visible-lg">
+            <iframe width="700" height="400" 
+                    src="//www.youtube.com/embed/WUfDvKVAc5o" frameborder="0" allowfullscreen></iframe>
         </div><br />
+        
+        
+        
+        
         <div align="center" class="trailer visible-md"><iframe width="700" height="400" src="//www.youtube.com/embed/WUfDvKVAc5o" frameborder="0" allowfullscreen></iframe>
         </div><br />
         <div align="center" class="trailer visible-xs"><iframe width="700" height="400" src="//www.youtube.com/embed/WUfDvKVAc5o" frameborder="0" allowfullscreen></iframe>
@@ -275,7 +282,9 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <h2>Contact</h2>
                         <hr>
-                        <p>Feel free to email me to provide some feedback for the game, such as suggestions for new levels, or to just say hello!</p>
+                        <p id="contact1" class="visible-lg visible-md">Feel free to email me to provide some feedback for the game, such as suggestions for new levels, or just to say hello!</p>
+                        <p id="contact2" class="visible-xs">Feel free to email me to provide some feedback for the game, such as suggestions for new levels, or just to say hello!</p>
+                        
                         <p id="email" class="visible-lg visible-md">jordieslavabarrera@gmail.com</p>
                         <p id="email2" class="visible-xs">jordieslavabarrera@gmail.com</p>
                     </div>
@@ -336,7 +345,6 @@
             $(function() {
                 $('a[href*=#]:not([href=#])').click(function() {
                     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
                         var target = $(this.hash);
                         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                         if (target.length) {
@@ -344,11 +352,8 @@
                                 scrollTop: target.offset().top
                             }, 1000);
                             return false;
-                        }
-                    }
-                });
+                        }} });
             });
-
         </script>
 
     </body>
